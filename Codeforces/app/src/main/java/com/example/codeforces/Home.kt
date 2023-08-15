@@ -14,13 +14,23 @@ class Home : AppCompatActivity() {
         val WebViewVariable=findViewById<WebView>(R.id.Home)
         webViewSetup(WebViewVariable)
     }
-    private fun webViewSetup(webViewVariable: WebView)
-    {
-        webViewVariable.webViewClient= WebViewClient()
-        webViewVariable.apply {
-            settings.javaScriptEnabled=true
-            settings.safeBrowsingEnabled=true
-            loadUrl("https://codeforces.com")
-        }
+
+//    private fun webViewSetup(webViewVariable: WebView)
+//    {
+//        webViewVariable.webViewClient= WebViewClient()
+//        webViewVariable.apply {
+//            settings.javaScriptEnabled=true
+//            settings.safeBrowsingEnabled=true
+//            loadUrl("https://my.ine.com")
+//        }
+//    }
+private fun webViewSetup(webViewVariable: WebView) {
+
+    webViewVariable.webViewClient= WebViewClient()
+    webViewVariable.apply {
+        settings.javaScriptEnabled=true
+        settings.safeBrowsingEnabled=true
+        loadUrl("https://codeforces.com/")
     }
+}
 }

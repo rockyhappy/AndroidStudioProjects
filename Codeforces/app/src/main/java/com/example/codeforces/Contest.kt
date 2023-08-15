@@ -21,4 +21,7 @@ class Contest : AppCompatActivity() {
             loadUrl("https://codeforces.com/contests")
         }
     }
+
+
+
 }

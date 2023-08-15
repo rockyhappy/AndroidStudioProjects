@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+
     >
     <Button
         android:layout_width="150dp"
@@ -19,14 +20,14 @@
     <Button
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:id="@+id/Contest"
+        android:id="@+id/contest"
         android:text="Contest"
         android:layout_margin="20dp"
         ></Button>
     <Button
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:id="@+id/Home"
+        android:id="@+id/home"
         android:text="Home Page"
         android:layout_margin="20dp"
         ></Button>
