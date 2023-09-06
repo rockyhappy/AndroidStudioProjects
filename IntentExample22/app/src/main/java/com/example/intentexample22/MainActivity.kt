@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         val rands=(1..6).random()
         val im=R.drawable.door1
-            binding.btn1.setFactory {
+        binding.btn1.setFactory {
                 val imageView = ImageView(this)
                 imageView.scaleType = ImageView.ScaleType.FIT_CENTER
                 imageView.layoutParams = FrameLayout.LayoutParams(
